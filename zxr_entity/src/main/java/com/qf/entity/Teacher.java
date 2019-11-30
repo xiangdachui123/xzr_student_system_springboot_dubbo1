@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
 @Accessors
 public class Teacher extends BaseEntity{
 
-    private String tName;
+    private String tname;
     private boolean sex;
     private String introduce;
 

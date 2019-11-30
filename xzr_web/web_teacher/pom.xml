@@ -43,10 +43,11 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
         <dependency>
-            <groupId>com.qf</groupId>
-            <artifactId>xzr_service_api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>0.2.0</version>
         </dependency>
 
     </dependencies>
