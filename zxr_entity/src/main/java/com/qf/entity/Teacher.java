@@ -13,9 +13,9 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @NoArgsConstructor
 @Accessors
-public class teacher extends BaseEntity{
+public class Teacher extends BaseEntity{
 
-    private String tName;
+    private String tname;
     private boolean sex;
     private String introduce;
 
