@@ -6,6 +6,7 @@
     <modules>
         <module>xzr_service_api</module>
         <module>xzr_commons</module>
+        <module>zxr_entity</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
