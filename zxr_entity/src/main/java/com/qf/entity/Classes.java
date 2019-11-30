@@ -15,6 +15,7 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @NoArgsConstructor
 @Accessors(chain = true)
+
 public class Classes extends BaseEntity {
     private String cname;
     private Integer cnum;
