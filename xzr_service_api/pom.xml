@@ -8,6 +8,13 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <dependencies>
+        <dependency>
+            <groupId>com.qf</groupId>
+            <artifactId>zxr_entity</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
     <artifactId>xzr_service_api</artifactId>
 
