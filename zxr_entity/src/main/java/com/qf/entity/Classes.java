@@ -20,4 +20,5 @@ public class Classes extends BaseEntity {
     private String cname;
     private Integer cnum;
     private Integer tid;
+
 }
