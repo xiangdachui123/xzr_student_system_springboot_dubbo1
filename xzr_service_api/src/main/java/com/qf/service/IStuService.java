@@ -10,4 +10,9 @@ import java.util.List;
  **/
 public interface IStuService {
     List<Stu> getList();
+
+    /**
+     * 添加学生
+     */
+   Integer  addSub(Stu stu);
 }

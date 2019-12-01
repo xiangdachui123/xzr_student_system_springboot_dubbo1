@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>班主任信息</h1>
+<table>
+    <tr>
+        <td>编号</td>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>授课风格</td>
+    </tr>
+    <tr th:each="tea : ${teachers}">
+        <td th:text="${tea.id}">编号</td>
+        <td th:text="${tea.tName}">姓名</td>
+        <td th:text="${tea.sex?'男':'女'}">性别</td>
+        <td th:text="${tea.introduce}">授课风格</td>
+    </tr>
+</table>
+</body>
+</html>

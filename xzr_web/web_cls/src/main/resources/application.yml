@@ -1,9 +1,9 @@
 server:
-  port: 9090
+  port: 9093
 
 dubbo:
   application:
-    name: stu
+    name: classes
   registry:
     address: zookeeper://192.168.200.200:2181
   protocol:
@@ -13,7 +13,7 @@ dubbo:
 
 spring:
   datasource:
-    url: jdbc:mysql:///db_stu?serverTimezone=GMT%2B8
+    url: jdbc:mysql:///db_cls?serverTimezone=GMT%2B8
     username: root
     password: 123
     driver-class-name: com.mysql.cj.jdbc.Driver

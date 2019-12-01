@@ -1,28 +1,23 @@
 package com.qf.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * @auther xiangjun
- * @Date 2019/11/30
- */
+ * @Auth RuanHao
+ * @Time 2019/12/1 17:43
+ **/
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Accessors(chain = true)
-@TableName("student")
-public class Stu  extends BaseEntity{
-
-    private String sname;
-    private  Integer age;
-    private  Integer cid;
-    @TableField(exist = false)
-    private Classes classes;
+public class Classes extends BaseEntity {
+    private String cname;
+    private Integer cnum;
+    private Integer tid;
     @TableField(exist = false)
     private teacher teacher;
 }

@@ -11,13 +11,20 @@
             <td>编号</td>
             <td>姓名</td>
             <td>年龄</td>
-            <td>班级编号</td>
+            <td>班级名称</td>
+            <td>班主任姓名</td>
         </tr>
         <tr th:each="stu : ${stuList}">
             <td th:text="${stu.id}">编号</td>
             <td th:text="${stu.sname}">姓名</td>
             <td th:text="${stu.age}">年龄</td>
-            <td th:text="${stu.cid}">班级编号</td>
+            <td th:text="${stu.classes.cname}">班级名称</td>
+            <td th:text="${stu.teacher.TName}">班主任姓名</td>
+        </tr>
+        <tr>
+            <td>
+                <a th:href="|${#request.getContextPath()}/stu/add|">添加学生</a>
+            </td>
         </tr>
     </table>
 </body>

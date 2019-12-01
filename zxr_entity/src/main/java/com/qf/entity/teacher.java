@@ -1,5 +1,6 @@
 package com.qf.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,6 +16,7 @@ import lombok.experimental.Accessors;
 @Accessors
 public class teacher extends BaseEntity{
 
+    @TableField(value = "tname")
     private String tName;
     private boolean sex;
     private String introduce;
